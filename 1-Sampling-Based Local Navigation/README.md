@@ -21,4 +21,5 @@
 
 ## Instruction:
 Run `python agent.py` to execute the program.
-Change `.csv` file at line 21 of `simulator.py` from 3 agents to 8 agents
+
+Change `.csv` file at line 21 of `simulator.py` from 3_agents to 8_agents.

@@ -1,9 +1,9 @@
-CPSC 8810 - Motion Planning
-ASSIGNMENT 2: Local Navigation with TTC Forces
-Submitted by: Aakanksha Smriti, Siddhant Srivastava
-Submission date: 02-09-2020
+# CPSC 8810 - Motion Planning
+## ASSIGNMENT 2: Local Navigation with TTC Forces
+###### Submitted by: Aakanksha Smriti, Siddhant Srivastava
+###### Submission date: 02-09-2020
 
-Variable Description:
+## Variable Description:
 1. size = The sample size over which random velocities are generated
 2. samp_rad = Saving the self.maxspeed as sampling radius
 3. theta = Creating the random sampling angle for velocities
@@ -25,3 +25,8 @@ Variable Description:
 19. m = Constant in Power Law model
 20. Favoid = Avoidance force
 21. n = Unit vector of the forces
+
+## Instruction:
+Run `python agent.py` to execute the program.
+
+Change `.csv` file at line 21 of `simulator.py` from 3_agents to 8_agents or crossing_agents.
