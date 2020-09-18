@@ -18,6 +18,6 @@
 - Part 4: **Gazebo planner for ROS**
 
 ## Instruction:
-Execute `roslaunch motion_planning.launch`. This will launch `turtlebot3_world.world` and spawn the Turtlebot at `x = -0.6, y = 2.0.
+Execute `roslaunch motion_planning.launch`. This will launch `turtlebot3_world.world` and spawn the Turtlebot at `x = -0.6, y = 2.0`.
 
 Open another terminal and execute `python rrt_star_ros.py`. This will execute the RRT* global planner.
